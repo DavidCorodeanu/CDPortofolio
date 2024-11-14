@@ -1,0 +1,92 @@
+body
+{
+    background-color: rgb(14, 22, 56);
+    color: white;
+}
+
+header
+{
+    position: fixed;
+    width: 90%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: default;
+}
+
+nav a
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .5s;
+}
+
+nav a:hover,
+nav a.active
+{
+    color: rgb(39, 170, 39);
+}
+
+.home
+{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10% 0;
+    flex-direction: column;
+}
+
+.home-content h3
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1
+{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.dropdown
+{
+    list-style-type: disc;
+    padding: 0;
+}
+.dropdown > li 
+{
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.dropdown ul
+{
+    list-style-type: none;
+    padding: 0 20px;
+    display: none;
+}
+.dropdown > li:hover ul 
+{
+    display: block;
+}
+
+.dropdown a
+{
+    text-decoration: none;
+    color: rgb(39, 170, 39);
+}

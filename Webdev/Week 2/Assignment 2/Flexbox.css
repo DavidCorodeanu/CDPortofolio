@@ -1,0 +1,49 @@
+h1
+{
+    color: blue;
+}
+
+h2
+{
+    color: blue;
+}
+
+#Item1
+{
+    color:red;
+    background-color: black;
+}
+
+.grid-container
+{
+   display: grid;
+   grid-template: 33% 33% 33% / 33% 33% 33%;
+   gap: 1rem;
+   background-color: white; 
+   padding: 20px;
+   margin: 10px;
+}
+
+.grid-item
+{
+   font-size: 20px;
+   text-align: center;
+   position:relative;
+   color:red;
+   background-color: black;
+}
+
+.flex-container 
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-container > div 
+{
+   background-color: rgba(43, 39, 39, 0.563);
+   margin: 10px;
+   font-size: 30px;
+   padding: 70px;
+}

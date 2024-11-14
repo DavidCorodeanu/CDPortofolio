@@ -1,0 +1,33 @@
+#museums
+{
+    width: 125px;
+    border-style: solid ;
+    border-color: blue;
+}
+
+#magerebrug
+{
+    width: 125px;
+    border-style: solid ;
+    border-color: blue;
+}
+
+h1
+{
+    color: blue
+}
+
+h2
+{
+    color: red;
+    font-size: xx-large;
+}
+
+h3{
+    color: red;
+    font-size: xx-large;
+}   
+#blue1
+{
+    color: blue;
+}
