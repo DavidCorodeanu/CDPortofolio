@@ -45,11 +45,7 @@ nav a.active
 {
     position: relative;
     width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 50px 10% 0;
-    flex-direction: column;
 }
 
 .home-content h3
@@ -89,4 +85,26 @@ nav a.active
 {
     text-decoration: none;
     color: rgb(39, 170, 39);
+}
+
+.embeded1
+{
+    width: 80%;
+    height: 50rem;
+    padding: 50px 10% 0;
+}
+
+.firstfeedbackform
+{
+    padding-left: 1rem;
+}
+
+.firstfeedbackformcontent
+{
+    padding-left: 2rem;
+}
+
+.firstfeedbackformmessage
+{
+    padding-left: 3rem;
 }
