@@ -108,3 +108,10 @@ nav a.active
 {
     padding-left: 3rem;
 }
+
+.firstdetails
+{
+    list-style: none;
+    cursor: pointer;
+}
+        
