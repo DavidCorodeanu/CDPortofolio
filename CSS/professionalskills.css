@@ -114,4 +114,91 @@ nav a.active
     list-style: none;
     cursor: pointer;
 }
+
+.year-details > summary,
+.semester-details > summary
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.year-details > summary::-webkit-details-marker,
+.semester-details > summary::-webkit-details-marker
+{
+    display: none;
+}
+
+.year-details > summary::before,
+.semester-details > summary::before
+{
+    content: "▶";
+    display: inline-block;
+    transform-origin: center;
+    transition: transform 0.2s ease;
+}
+
+.year-details[open] > summary::before,
+.semester-details[open] > summary::before
+{
+    transform: rotate(90deg);
+}
+
+.year-details > summary h1,
+.semester-details > summary h2
+{
+    margin: 0;
+}
+
+.year-content
+{
+    padding-left: 0.5rem;
+}
+
+.semdetails
+{
+    cursor: pointer;
+}
+
+.semdetails h2
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.coming-soon
+{
+    margin-left: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.file-link
+{
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+    color: rgb(39, 170, 39);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.file-link:hover
+{
+    text-decoration: underline;
+}
+
+.image-grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: 1rem;
+}
+
+.image-grid img
+{
+    max-width: 75%;
+    height: auto;
+}
         
